@@ -8,8 +8,8 @@ export default {
       extend: {
         
           backgroundImage: {
-          "hero-img": "linear-gradient(#00000040, transparent, #00000040), linear-gradient(to right, #00000040, transparent, #00000040), url('./src/assets/background-hero.jpg')",
-          "contact-img":"linear-gradient(#00000040, transparent, #00000040), linear-gradient(to right, #00000040, transparent, #00000040), url('./src/assets/contactUs-bg.jpg')" 
+          "hero-img": "linear-gradient(#00000040, transparent, #00000040), linear-gradient(to right, #00000040, transparent, #00000040), url('/assets/background-hero.jpg')",
+          "contact-img":"linear-gradient(#00000040, transparent, #00000040), linear-gradient(to right, #00000040, transparent, #00000040), url('/assets/contactUs-bg.jpg')" 
             
           },
           height: {
