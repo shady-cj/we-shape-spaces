@@ -7,14 +7,14 @@ import Contact from './components/contact'
 
 function App() {
   return (
-    <>
+    <div className='container mx-auto my-0 max-w-[1400px] overflow-x-hidden bg-black w-[100vw]'>
       <Hero />
       <About />
       <Services />
       <Projects />
       <Reviews />
       <Contact />
-    </>
+    </div>
   )
 }
 

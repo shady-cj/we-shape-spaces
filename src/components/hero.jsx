@@ -3,7 +3,7 @@ import logoIcon from '../assets/logo-icon.svg';
 import hamburger from '../assets/hamburger.png'
 const hero = () => {
     return (
-        <div className="w-[100vw] bg-no-repeat bg-cover bg-center bg-hero-img min-h-screen text-white">
+        <div className="w-full bg-no-repeat bg-cover bg-center bg-hero-img pb-24 text-white">
             <header className='flex py-12 px-14 w-full justify-between'>
                 <img className='w-8' src={logoIcon} alt="" />
                 <nav className='flex items-center gap-x-6'>
@@ -19,7 +19,7 @@ const hero = () => {
                 <h1 className='relative text-8xl font-bold font-["Montserrat"] z-10'>WE SHAPE</h1>
                 <h1 className='relative -mt-5 text-8xl font-bold font-["Montserrat"]'>
                     SPACES
-                    <div className='absolute h-[40vh] w-[100vw] -top-[90%] -left-[110%] z-0 bg-gradient-to-b from-transparent via-[#00000073] via-45% to-transparent to-60%'>
+                    <div className='absolute h-[15rem] w-[100vw] -top-[90%] -left-[110%] z-0 bg-gradient-to-b from-transparent via-[#00000073] via-45% to-transparent to-60%'>
 
                     </div>
                     {/* <div className='absolute h-[40vh] w-[50vw] border-2 border-solid -top-[90%] -left-[0%] z-0 bg-gradient-to-r from-transparent via-[#00000080] via-45% to-transparent to-60%'> */}

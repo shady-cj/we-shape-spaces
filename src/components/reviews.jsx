@@ -7,7 +7,7 @@ import revBtnActive from "../assets/rev-btn-active.svg"
 import revBtnInactive from "../assets/rev-btn-inactive.svg"
 const reviews = () => {
     return (
-        <div className="w-screen min-h-screen bg-[#102111] relative">
+        <div className="w-full pb-24 bg-[#102111] relative">
             <h1 className="absolute left-[55%] -top-12 whitespace-nowrap font-['Montserrat'] font-bold pointer-events-none select-none text-[#fafafa0d] text-[12rem] text-[rgba(250, 250, 250, 0.05)]">
                 REVIEWS
             </h1>
@@ -64,10 +64,10 @@ const reviews = () => {
                 </section>
             </section>
             <section className="w-full py-10 flex justify-center gap-0.5">
-                <img src={revBtnInactive} className="cursor-pointer" alt="" />
-                <img src={revBtnActive} className="cursor-pointer" alt="" />
-                <img src={revBtnInactive} className="cursor-pointer" alt="" />
-                <img src={revBtnInactive} className="cursor-pointer" alt="" />
+                <img loading="lazy" src={revBtnInactive} className="cursor-pointer" alt="" />
+                <img loading="lazy" src={revBtnActive} className="cursor-pointer" alt="" />
+                <img loading="lazy" src={revBtnInactive} className="cursor-pointer" alt="" />
+                <img loading="lazy" src={revBtnInactive} className="cursor-pointer" alt="" />
             </section>
         </div>
 

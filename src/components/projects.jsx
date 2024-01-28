@@ -11,7 +11,7 @@ import project10 from "../assets/projects-10.png"
 
 const projects = () => {
     return (
-        <div className="w-screen min-h-screen bg-[#334431] relative">
+        <div className="w-full pb-24 bg-[#334431] relative">
             <h1 className="absolute -left-[32%] -top-12 whitespace-nowrap font-['Montserrat'] font-bold pointer-events-none select-none text-[#fafafa0d] text-[12rem] text-[rgba(250, 250, 250, 0.05)]">
                 PROJECTS
             </h1>
@@ -21,7 +21,7 @@ const projects = () => {
                     Experience the epitome of sophistication in our latest mobile app UI/UX design. Meticulously crafted for seamless navigation
                 </p>
                 <section className="flex mt-16 gap-x-4">
-                    <div className="grid grid-cols-11 grid-rows-7 gap-4 basis-3/5 h-[130vh]">
+                    <div className="grid grid-cols-11 grid-rows-7 gap-4 basis-3/5 h-[50rem]">
                         <div className="col-start-1 col-end-6 row-start-1 row-end-3">
                             <img src={project1} className="w-full h-full object-cover aspect-auto" alt="" />
                         </div>
@@ -41,7 +41,7 @@ const projects = () => {
                             <img src={project6} className="w-full h-full object-cover" alt="" />
                         </div>
                     </div>
-                    <div className="grid grid-cols-11 grid-rows-10 gap-4 basis-2/5 h-[130vh]">
+                    <div className="grid grid-cols-11 grid-rows-10 gap-4 basis-2/5 h-[50rem]">
                         <div className="col-start-1 col-end-7 row-start-1 row-end-5">
                             <img src={project7} className="w-full h-full object-cover aspect-auto" alt="" />
                         </div>
